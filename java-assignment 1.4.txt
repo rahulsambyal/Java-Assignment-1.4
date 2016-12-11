@@ -1,0 +1,14 @@
+package myPack;
+import java.util.*;
+import java.lang.Math;
+class Ascii{
+public static void main(String args[]){
+    
+    String str =null;
+    for(int i=65;i<91;i++){
+        str = Character.toString((char)i);
+        System.out.println(str);
+    }
+}
+
+}
